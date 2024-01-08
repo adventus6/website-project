@@ -1,0 +1,27 @@
+<section id="feed">
+      <!-- Homework posts will be displayed here -->
+      <!-- Example: -->
+      <div class="post">
+        <h2>Homework Title</h2>
+        <p>Homework content...</p>
+        <div class="actions">
+          <button class="like-btn">Like</button>
+          <button class="comment-btn">Comment</button>
+        </div>
+        <div class="comments">
+          <!-- Comments will be displayed here -->
+          <!-- Example: -->
+          <div class="comment">
+            <p>Comment content...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="upload">
+      <!-- Form to upload homework -->
+      <form id="homeworkForm" enctype="multipart/form-data">
+        <input type="file" name="homeworkFile" id="homeworkFile">
+        <button type="submit">Upload</button>
+      </form>
+    </section>

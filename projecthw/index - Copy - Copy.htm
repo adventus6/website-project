@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Homework Sharing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Student Homework Sharing</h1>
+    <nav>
+      <ul>
+        <li><a href="#feed">Feed</a></li>
+        <li><a href="#upload">Upload Homework</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="feed">
+      <!-- Homework posts will be displayed here -->
+      <!-- Example: -->
+      <div class="post">
+        <h2>Homework Title</h2>
+        <p>Homework content...</p>
+        <div class="actions">
+          <button class="like-btn">Like</button>
+          <button class="comment-btn">Comment</button>
+        </div>
+        <div class="comments">
+          <!-- Comments will be displayed here -->
+          <!-- Example: -->
+          <div class="comment">
+            <p>Comment content...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="upload" style="display: none;">
+      <!-- Form to upload homework -->
+      <form id="homeworkForm" enctype="multipart/form-data">
+        <input type="file" name="homeworkFile" id="homeworkFile">
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Drive Folder</h2>
+    <p>Students can upload files to this folder.</p>
+    <!-- Placeholder for drive folder -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
